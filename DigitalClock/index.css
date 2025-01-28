@@ -1,0 +1,22 @@
+body {
+    padding: 200px;
+}
+
+.container {
+    height: 30px;
+    width: 50px;
+    border: 2px groove rgba(118, 239, 213, 0.964);
+    border-radius: 35px;
+    /* box-shadow: 0 4px 20px rgba(132, 22, 133, 0.2); */
+     /* Updated box shadow */
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(8, 91, 100);
+}
+
+#clock {
+    font-size: 30px;
+    font-family: sans-serif;
+}

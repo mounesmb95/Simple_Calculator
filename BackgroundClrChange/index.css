@@ -1,0 +1,42 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Fixed width for calculator-like appearance */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 10px; /* Optional: Rounded corners */
+    background-color: #f9f9f9; /* Optional: Background color */
+}
+
+.container h2 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px; /* Adjust this value if needed */
+    width: 100%; /* This can be adjusted based on design */
+    align-content: center;
+}
+
+.btn-hero {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+    background-color: darkblue;
+}
